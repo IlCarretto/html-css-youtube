@@ -9,6 +9,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: unset;
+}
+
 /* COMMON */
 html {
     font-family: 'Roboto', sans-serif;
@@ -32,6 +36,7 @@ li {
 /* HEADER */
 header {
     height: 80px;
+    line-height: 80px;
 }
 
 .header-nav {
@@ -48,13 +53,14 @@ header {
     height: 100%;
 }
 
-.nav-group i {
-    margin-right: 5px;
-}
-
 .logo{
     padding: 1rem 0;
     height: 100%;
+    vertical-align: middle;
+}
+
+.yt {
+   
 }
 
 .searchbar {
@@ -82,7 +88,28 @@ button {
     margin-right: 1.6rem;
 }
 
+/* Header-Submenu */
+/* .sidebar {
+    position: relative;
+}
+
+.submenu {
+    min-width: 100px;
+    min-height: 100px;
+    position: absolute;
+    top: 80px;
+    background-color: red;
+} */
+
+.submenu li {
+
+}
+
 /* MAIN */
+.main-container {
+    margin-left: 4rem;
+}
+
 main {
     background-color: #f9f9f9;
 }
