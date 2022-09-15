@@ -24,6 +24,11 @@ i {
     font-size: 1.6rem;
 }
 
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -82,10 +87,33 @@ main {
     background-color: #f9f9f9;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .col {
-    width: calc(100% / 4);
-    
-    /* DEBUG */
-    height: 200px;
-    background-color: blue;
+    width: calc(100% / 4 - 2.4rem);
+    margin: 0 2.4rem 2.4rem 0;
+}
+
+.card-bot img{
+    width: 20%;
+}
+
+.card-bot {
+    display: flex;
+    align-items: center;
+}
+
+.card-bot ul {
+    margin-left: 1rem;
+}
+
+.card-bot ul li:nth-child(1){
+    margin-bottom: 5px;
+}
+
+.card-bot ul li:not(:first-child) {
+    color: grey;
 }
